@@ -15,3 +15,13 @@ CREATE TABLE golf_eat_concat (
 	city TEXT,
 	name VARCHAR(255)
 );
+
+UPDATE
+  golf_eat
+SET
+  state = UPPER(state)
+  
+UPDATE
+  golf_eat_concat
+SET
+  state = UPPER(state) 
