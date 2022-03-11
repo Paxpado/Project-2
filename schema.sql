@@ -8,3 +8,10 @@ CREATE TABLE golf_eat (
 	disc_golf_course VARCHAR(255),
 	disc_golf_city TEXT
 );
+
+CREATE TABLE golf_eat_concat (
+	state TEXT,
+	categories VARCHAR(255),
+	city TEXT,
+	name VARCHAR(255)
+);
